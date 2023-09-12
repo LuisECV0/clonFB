@@ -1,0 +1,288 @@
+$primary-bg-color: rgb(45, 43, 51);
+$secondary-bg-color: rgb(71, 69, 77);
+$icon-color: rgb(203, 205, 205);
+$text-color: rgb(219, 215, 215);
+$accent-color: rgb(75, 72, 85);
+$input-bg-color: rgb(94, 93, 93);
+
+* {
+  margin: 0;
+  padding: 0;
+  background: $primary-bg-color;
+}
+
+.box-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: $primary-bg-color;
+  border: .5px solid $secondary-bg-color;
+  padding: 10px 0;
+}
+
+.box-header img {
+  width: 100px;
+  padding: 0 20px;
+}
+
+.white {
+  border-radius: 100px;
+  border: 2px solid $secondary-bg-color;
+  padding: 5px 10px;
+  height: 25px;
+  width: 220px;
+  background-color: $input-bg-color;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.center {
+  i {
+    margin: 2px;
+    padding: 10px;
+    background-color: $primary-bg-color;
+    width: 50px;
+    border-radius: 5px;
+    transition: 0.5s;
+  }
+  i:hover {
+    background-color: $accent-color;
+    transition: 0.5s;
+  }
+  display: flex;
+  margin: 0;
+  text-align: center;
+}
+
+.right {
+  i {
+    margin: 2px;
+    padding: 10px;
+    background-color: $primary-bg-color;
+    width: 50px;
+    border-radius: 5px;
+    transition: 0.5s;
+    text-align: center;
+  }
+  i:hover {
+    background-color: $accent-color;
+    transition: 0.5s;
+  }
+  display: flex;
+  align-items: center;
+}
+
+.fa-solid, .fa-brands {
+  color: $icon-color;
+}
+
+.left-content {
+  border: 1px solid $secondary-bg-color;
+  width: 21%;
+}
+
+.center-content {
+  border: 1px solid $secondary-bg-color;
+  width: 49%;
+}
+
+.right-content {
+  border: 1px solid $secondary-bg-color;
+  width: 23%;
+}
+
+.box-general {
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+  justify-content: space-between;
+}
+
+.box-general p {
+  color: $text-color;
+}
+
+.box-header img {
+  width: 38px;
+}
+
+.left-content {
+    display: flex;
+    padding: 10px 0;
+    margin:0;
+
+  
+    .elements {
+      padding-top: 5px;
+      padding-left: 10px;
+      display: flex;
+      flex-direction: column; 
+      color: $icon-color; 
+      font-weight: 600;
+      margin: 0;
+      width: 100%;
+      
+      img{
+        margin: 1% 3%;
+        padding: 0;
+      }
+      li{
+      height: 7%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+
+      }
+      li:hover {
+        background-color: $accent-color;
+        
+        i {
+
+          background-color: $accent-color;
+        }
+      }
+    }
+  }
+  
+
+
+
+
+
+
+
+.elements .fa-solid, .fa-regular {
+  padding: 5px 10px;
+}
+
+.elements li:hover {
+  background-color: $accent-color;
+  border-radius: 10px;
+}
+
+.box-contact {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.list-contact p {
+  font-size: 15px;
+  padding: 10px 10px;
+  align-items: center;
+  display: flex;
+}
+
+.list-contact p:hover {
+  background: $accent-color;
+  border-radius: 10px;
+}
+
+img {
+  border-radius: 50px;
+}
+
+.busqueda {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.fa-magnifying-glass {
+  padding: 10px 10px;
+  border-radius: 50px;
+  font-size: 15px;
+  margin-right: 30px;
+}
+
+.fa-magnifying-glass:hover {
+  background: $accent-color;
+}
+
+h1 {
+  color: rgb(202, 197, 197);
+}
+
+.shorts {
+  margin: 20px auto;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.publication {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 80px;
+}
+
+.sobre-mi {
+  padding: 10px 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+  background-color: $accent-color;
+}
+
+.sobre-mi input {
+  width: 85%;
+  border-radius: 50px;
+  margin-left: 10px;
+  height: 30px;
+  background-color: $input-bg-color;
+  border: 2px solid rgb(68, 67, 67);
+  width: 90%;
+}
+
+.box-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $accent-color;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.line {
+  border: none;
+  border-top: 2px solid rgb(34, 33, 33);
+  width: 80%;
+}
+
+.box-coment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+  width: 100%;
+  padding: 10px 10px;
+  background-color: $accent-color;
+  border-radius: 0 0 10px 10px;
+}
+
+.box-coment span {
+  color: rgb(226, 222, 222);
+  background-color: $accent-color;
+}
+
+.box-coment i {
+  font-size: 25px;
+  background-color: $accent-color;
+}

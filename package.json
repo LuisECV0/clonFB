@@ -1,0 +1,14 @@
+{
+  "name": "clonfb",
+  "version": "1.0.0",
+  "description": "Este proyecto tiene como objetivo principal ayudarme a aprender sobre el desarrollo de redes sociales y mejorar mis habilidades en programación web. 📚",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.66.1"
+  }
+}
